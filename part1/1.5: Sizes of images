@@ -1,0 +1,32 @@
+REPOSITORY                          TAG       IMAGE ID       CREATED         SIZE
+ubuntu                              latest    d2e4e1f51132   11 days ago     77.8MB
+devopsdockeruh/simple-web-service   ubuntu    4e3362e907d5   14 months ago   83MB
+devopsdockeruh/simple-web-service   alpine    fd312adc88e0   14 months ago   15.7MB
+
+esthg@esthg-mint:~/dockerdevops/devopswithdocker/part1$ docker exec -it friendly_tharp sh
+/usr/src/app # ls
+server    text.log
+/usr/src/app # cat text.log 
+2022-05-11 12:20:57 +0000 UTC
+2022-05-11 12:20:59 +0000 UTC
+2022-05-11 12:21:01 +0000 UTC
+2022-05-11 12:21:03 +0000 UTC
+2022-05-11 12:21:05 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2022-05-11 12:21:07 +0000 UTC
+2022-05-11 12:21:09 +0000 UTC
+2022-05-11 12:21:11 +0000 UTC
+2022-05-11 12:21:13 +0000 UTC
+2022-05-11 12:21:15 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2022-05-11 12:21:17 +0000 UTC
+2022-05-11 12:21:19 +0000 UTC
+2022-05-11 12:21:21 +0000 UTC
+2022-05-11 12:21:23 +0000 UTC
+2022-05-11 12:21:25 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2022-05-11 12:21:27 +0000 UTC
+2022-05-11 12:21:29 +0000 UTC
+2022-05-11 12:21:31 +0000 UTC
+2022-05-11 12:21:33 +0000 UTC
+2022-05-11 12:21:35 +0000 UTC
