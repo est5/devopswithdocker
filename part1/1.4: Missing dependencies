@@ -1,0 +1,1 @@
+docker run --rm -ti -e website=helsinki.fi ubuntu sh -c apt update;apt install curl ;echo "Input website:"; echo $website  ; echo "Searching.."; sleep 1; curl http://$website;
