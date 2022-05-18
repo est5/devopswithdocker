@@ -1,0 +1,18 @@
+version: '3.9'
+
+services:
+  front:
+    image: esthg/front
+    ports:
+      - 5000:5000
+
+  back:
+    image: esthg/back
+    ports:
+      - 8080:8080
+    command: ./server
+    environment:
+      - REDIS_HOST=reddis
+
+  reddis:
+    image: redis:latest
